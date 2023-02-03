@@ -1,6 +1,6 @@
 # F1-report-Api
 
-It was also my task from the course and it was based on the previous project (F1-report)
+It was my task from the course based on the previous project (F1-report).
 In that project I used Flask for creating app, flask-restful for creating class for api, flasgger for creating swagger and unittest for testing. 
 
 
@@ -20,8 +20,8 @@ Another way is using simple routes for getting information
 
 http://127.0.0.1:2000/report - returns all report
 
-http://127.0.0.1:2000/report/{ID}  - returns information about a specific driver (for exemple http://127.0.0.1:2000/report/SVF)
+http://127.0.0.1:2000/report/{ID}  - returns the information about a specific driver (for example http://127.0.0.1:2000/report/SVF)
 
 http://127.0.0.1:2000/drivers  - returns the list of drivers and links to each of them on Wiki
 
-http://127.0.0.1:2000/drivers/{ID}  - returns information about a specific driver (for exemple http://127.0.0.1:2000/drivers/SVF)
+http://127.0.0.1:2000/drivers/{ID}  - returns the information about a specific driver (for example http://127.0.0.1:2000/drivers/SVF)
